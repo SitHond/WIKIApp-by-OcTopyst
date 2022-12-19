@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OcTopystApp.PageStart">
+
+    <StackLayout>
+        
+        <Frame x:Name="StartFrame" BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Mobail WIKI" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Категория 1" FontSize="16" Padding="30,0,30,0"/>
+        <Button Text="Статья 1" Clicked="Button_Clicked"></Button>
+        <Button Text="Статья 2" Clicked="Button_Clicked_1"></Button>
+        <Button Text="Статья 3" Clicked="Button_Clicked_2"></Button>
+        <Label Text="Категория 2" FontSize="16" Padding="30,0,30,0"/>
+        <Button Text="Статья 1" Clicked="Button_Clicked_3"></Button>
+        <Button Text="Статья 2" Clicked="Button_Clicked_4"></Button>
+        <Button Text="Статья 3" Clicked="Button_Clicked_5"></Button>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Разработчик - "/>
+                        <Span Text="https://sithond.ru" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
